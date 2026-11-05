@@ -52,9 +52,11 @@ A production implementation should include:
 Deploy this folder as a static project with Framework Preset **Other**, no build command and output directory `.`.
 
 
-## Partner onboarding update
-The login screen now has a dedicated **Start partner onboarding** option. Applications are grouped into labelled steps with a visible progress bar, current-step label and completed-step indicators. Applicants can return to earlier completed sections without losing their entries.
+## Partner onboarding (phased)
+Sign-in has a **Start partner onboarding** option that opens a full-width screen with no side panel.
+1. **The basics:** three short sections (about you, what you deliver with, how much you can take on). Open them in any order. Only name and phone are needed to move on.
+2. **Meet the team:** pick a day and time for a short call.
+3. **After the meeting:** the rest (coverage, fleet and capacity, international, systems for companies, documents), also in any order. Unlocks the final step once the meeting is done. The demo has a link to pretend it happened.
+4. **Join Buzz:** confirmation, with a note that Buzz Logistics only delivers goods bought through the Buzz app.
 
-Enterprise application sections cover legal details, business details, services and coverage, capacity and fleet, international shipping, systems/integration, and additional information. Questions include Nigerian states and cities covered, main service (international, domestic, both or other), vehicle types, years in delivery operations, current fleet size, daily/monthly capacity, international shipment capability, countries and routes covered, and a free-text additional-information field. Individual applications use an appropriately scaled version of the same operational questions.
-
-The final application screen clearly states that Buzz Logistics is strictly for delivering goods and products purchased through the Buzz app, not unrelated third-party consignments. The login panel also uses a photographic delivery/warehouse background image loaded from Unsplash; an internet connection is required for that image.
+The app uses the same blue theme and slow breathing gradient as the website. No photo is loaded from the internet.
